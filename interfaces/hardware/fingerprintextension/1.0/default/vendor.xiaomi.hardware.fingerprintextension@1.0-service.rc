@@ -1,0 +1,6 @@
+service vendor.fpext /vendor/bin/hw/vendor.xiaomi.hardware.fingerprintextension@1.0-service
+    interface vendor.xiaomi.hardware.fingerprintextension@1.0::IXiaomiFingerprint default
+    class hal
+    user system
+    group system
+    
